@@ -1,9 +1,11 @@
-import { defineConfig } from 'vitepress'
+﻿import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MicroDuck复刻教程",
   description: "MicroDuck复刻教程",
+// GitHub Pages 部署路径
+  base: '/Microduck_DIY_Guide/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
